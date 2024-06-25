@@ -78,7 +78,7 @@ de adicionar o o prefixo "app-" :
 <app-meu-componente></app-meu-componente>
 ```
 
--Criando componente automaticamente na linha de comando: ``ng generate component segundo-componente``
+- Criando componente automaticamente na linha de comando: ``ng generate component segundo-componente``
 
 - Criando pela linha de comando ele já acrecenta o componente a aplicação no arquivo app.modules.ts
 
@@ -106,7 +106,7 @@ nome: string = "Jhonny Alves de Souza Azevedo"; <---------------------- declare 
 }
 ```
 
-- Você pode consultar todos os pipes do Angular na [documentação:](angular.io/guide/pipes)
+- Você pode consultar todos os pipes do Angular na [documentação:](https://v17.angular.io/guide/pipe-template)
 
 
 ## Criando um Pipe seu, personalizado
@@ -115,7 +115,7 @@ nome: string = "Jhonny Alves de Souza Azevedo"; <---------------------- declare 
 
 - ex: ``ng g pipe multiplicaPor``
 
--o arquivo multiplica-por.pipe.ts é criado e já é adicionado em app.modules.ts:
+- o arquivo multiplica-por.pipe.ts é criado e já é adicionado em app.modules.ts:
 
 ```
 @NgModule({
