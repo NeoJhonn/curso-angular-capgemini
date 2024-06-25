@@ -3,13 +3,14 @@
 - Instalar versão 14 do Angular: ``npm i -g @angular/cli@14``
 
 - Instalar seguintes extesões no VSCode:
-  -Angular language service.
+  - Angular language service.
 
-- Criando um projeto no Angular: ng new nome-projeto
-  -add Angular routing? - escolha Yes
-  -stylesheet formar - ecolha SCSS.
+- Criando um projeto no Angular: 
+  - ng new nome-projeto
+  - add Angular routing? -> escolha Yes
+  - stylesheet formar -> ecolha SCSS.
 
-- Para rodar/execultar uma aplicação Angular use o comando: ng serve
+- Para rodar/execultar uma aplicação Angular use o comando: ``ng serve``
 
 - Angular é composta basicamente de 3 coisas:
   - o template = arquivo html.
@@ -82,7 +83,7 @@ de adicionar o o prefixo "app-" :
 - Criando pela linha de comando ele já acrecenta o componente a aplicação no arquivo app.modules.ts
 
 
-# Usando interpolação de texto e pipe "|" para formatar textos dentro de uma tag HTML
+## Usando interpolação de texto e pipe "|" para formatar textos dentro de uma tag HTML
 
 - Arquivo nome-componente.component.html:
 
